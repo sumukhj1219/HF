@@ -1,6 +1,6 @@
 "use server"
 import auth from '@/auth/auth'
-import { prisma } from '@/lib/prisma'
+import { prisma } from '@/lib/db'
 import React from 'react'
 
 const MyIdeaComponent = async() => {

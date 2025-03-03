@@ -1,7 +1,7 @@
 "use server"
 
 import auth from '@/auth/auth'
-import { prisma } from '@/lib/prisma'
+import { prisma } from '@/lib/db'
 import Link from 'next/link'
 import { redirect } from 'next/navigation'
 import React from 'react'
