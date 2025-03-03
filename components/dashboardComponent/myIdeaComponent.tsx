@@ -24,7 +24,7 @@ const MyIdeaComponent = async() => {
     <div className='max-w-7xl'>
         {
              ideas.map((idea)=>{
-                <div ></div>
+                <div >{idea.theme}</div>
             })
         }
     </div>

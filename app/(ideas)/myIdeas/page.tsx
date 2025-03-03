@@ -14,7 +14,7 @@ const MyIdeaComponent = async () => {
 
     const user = await prisma.user.findUnique({
         where: {
-            //@ts-ignore
+            // @ts-expect-error
             email: decoded.email,
         },
     })
